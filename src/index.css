@@ -1,0 +1,32 @@
+body{
+  font-family: sans-serif;
+}
+
+.image{
+  width: 40px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.nav-items{
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li{
+  padding: 10px;
+}
+
+.footer-items{
+  height: 10vh;
+  background: gray;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
