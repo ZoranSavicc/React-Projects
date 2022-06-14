@@ -1,32 +1,64 @@
-body{
-  font-family: sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: 'Inter',sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #33373E;
 }
 
 .image{
   width: 40px;
 }
 
-.nav{
+nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 2px -2px gray;
+  background: #21222A;
+  padding: 30px 25px;
 }
 
-.nav-items{
-  list-style: none;
+nav h3{
+  color: #00D8FF;
+}
+
+nav h4{
+  color: #DEEBF8;
+}
+
+.logo{
   display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.nav-items > li{
-  padding: 10px;
-}
-
-.footer-items{
-  height: 10vh;
-  background: gray;
+main{
   color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  padding: 57px 27px;
+  background-image: url('./images/grey-react-logo.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-size: 40%;
+}
+
+main h1{
+  margin: 0;
+  font-size: 39px;
+}
+
+.main-facts{
+  margin-top: 46px;
+}
+
+.main-facts > li{
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main-facts > li::marker{
+  font-size: 1.4rem;
+  color: #00D8FF;
 }

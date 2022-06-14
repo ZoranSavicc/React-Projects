@@ -1,19 +1,11 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Header from "./Header";
-import Footer from "./Footer"
-import MainContent from './MainContent';
 import "./index.css"
+import App from "./App"
 
 function Page() {
     return (
-        <div>
-            <Header />
-
-            <MainContent />
-
-            <Footer />
-        </div>
+        <App/>
     )
 }
 
